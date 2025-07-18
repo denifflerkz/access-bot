@@ -1,7 +1,5 @@
 services:
   - type: web
     name: access-bot
-    runtime: python
-    pythonVersion: 3.10.8
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
+    env: docker
+    plan: free
