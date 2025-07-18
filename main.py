@@ -4,13 +4,13 @@ from aiogram.utils import executor
 import logging
 from datetime import datetime
 
-API_TOKEN = 'YOUR_BOT_TOKEN'
+API_TOKEN = '8145775053:AAEB-SSkCPBEMn7nw6mY2onoigjIoR3ToOE'
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
-group_link = "https://t.me/YOUR_GROUP_LINK"
+group_link = "https://t.me/+JLZTHLGNzn4wYjcy" 
 
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
