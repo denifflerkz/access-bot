@@ -4,7 +4,7 @@ from aiogram.utils import executor
 import logging
 from datetime import datetime
 
-API_TOKEN = '8145775053:AAEB-SSkCPBEMn7nw6mY2onoigjIoR3ToOE'
+API_TOKEN = '8145775053:AAGPlSdGrLRNbmxvLBRqZGU8BnwlNyTX7SA'
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
