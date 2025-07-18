@@ -17,7 +17,7 @@ async def send_welcome(message: types.Message):
     kb = ReplyKeyboardMarkup(resize_keyboard=True)
     kb.add(KeyboardButton("✅ Принять условия"))
     await message.answer(
-        "👋 Привет! Это тестовый бот.
+        "👋 Привет! Это тестовый бот."
 
 Чтобы получить доступ в группу, нажмите кнопку ниже.",
         reply_markup=kb
